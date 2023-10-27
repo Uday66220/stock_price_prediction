@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    background-image: url("images/stock.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    width:100%;
+    height:100%;
+    
+    
+  }
+  h2 {
+    display: table; 
+    margin: 0px auto 0px auto; 
+    padding:5px;font-size:30px;
+    background-color:white;color:black;
+    
+    
+  }
+  h3 {
+    text-align: center;
+    color: white;
+  }
+label[for="company"] { color: white; }
+label[for="prevclose"] { color: white; }
+label[for="open"] { color: white; }
+label[for="high"]{color: whitesmoke}
+label[for="low"]{color: white}
+label[for="last"]{color:white}
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  select {
+    width: 100%;
+    padding: 5px;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input[type="submit"] {
+    text-align: center;
+    background-color: blue; 
+    color: white;
+    padding: 10px 140px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3; 
+  }

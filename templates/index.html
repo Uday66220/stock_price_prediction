@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stock price prediction </title>
+    <link rel="stylesheet" href="static/indexcss.css" type="text/css">
+    </head>
+<body>
+
+<h2>Closing stock price prediction</h2>
+
+<form action="/submit" method='post'>
+  <label for="company">Choose company:</label><br>
+  <select id="company" name="company" >
+    <option value="Asian">Asian paints</option>
+    <option value="Bajaj">Bajaj Finance</option>
+    <option value="BPCL">BPCL</option>
+    <option value="Cipla">Cipla</option>
+    <option value="ITC">ITC</option>
+    <option value="LT">Larsen & Toubro</option>
+    <option value="SBI">SBI</option>
+    <option value="Tatamotors">Tata motors</option>
+    <option value="TCS">TCS</option>
+    <option value="Titan">Titan</option>
+    <option value="Wipro">Wipro</option>
+</select><br><br>
+  <label for="prevclose">Previous Closing Stock value:</label>
+  <input type="text" id="prevclose" name="prevclose" ><br>
+  <label for="open">Opening Stock value:</label>
+  <input type="text" id="open" name="open" ><br>
+  <label for="high">High stock value:</label>
+  <input type="text" id="high" name="high" ><br>
+  <label for="low">Low stock value:</label>
+  <input type="text" id="low" name="low" ><br>
+  <label for="last">Last stock value:</label>
+  <input type="text" id="last" name="last" ><br>
+  <input type="submit" value="Predict">
+</form> 
+
+
+</body>
+</html>

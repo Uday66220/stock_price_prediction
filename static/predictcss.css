@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    background-image: url("images/stock.jpg");
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    text-align: center;
+    color: whitesmoke; 
+  }
+  
+  h3 {
+    margin: 10px 0;
+    font-weight: bold;
+    color: white;
+  }
+  
+
+  h2:last-of-type {
+    color: white; 
+    margin-top: 20px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  h2:not(:first-of-type),
+  h3 {
+    margin-top: 10px;
+  }
